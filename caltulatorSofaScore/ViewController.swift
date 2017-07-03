@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalScore: UITextField!
    
     
+    //appDelegateのインスタンスを作成
+    let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+    
     //合計点数の変数を作成
     var amount:Int = 0
     //セグメントが選択されない時の初期値の設定
@@ -152,6 +155,12 @@ class ViewController: UIViewController {
         amount = pfNumber + pltNumber + bilNumber + mapNumber + gcsNumber + creNumber + hrNumber
         totalScore.text = String(amount)
         }
+    
+    
+    //ボタンを押すとDICの画面に遷移
+    @IBAction func buttonToDic(_ sender: UIButton) {
+        appDelegate.pfNumber = pfSeg.selectedSegmentIndex
+    }
     
 
     

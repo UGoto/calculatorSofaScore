@@ -14,6 +14,7 @@
 		BAA55CE31F0926A3006C9DBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA55CE11F0926A3006C9DBA /* LaunchScreen.storyboard */; };
 		BAA55CEE1F0926A3006C9DBA /* caltulatorSofaScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA55CED1F0926A3006C9DBA /* caltulatorSofaScoreTests.swift */; };
 		BAA55CF91F0926A3006C9DBA /* caltulatorSofaScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA55CF81F0926A3006C9DBA /* caltulatorSofaScoreUITests.swift */; };
+		BAA55DB71F0A85A6006C9DBA /* dicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA55DB61F0A85A6006C9DBA /* dicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BAA55CF41F0926A3006C9DBA /* caltulatorSofaScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caltulatorSofaScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA55CF81F0926A3006C9DBA /* caltulatorSofaScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caltulatorSofaScoreUITests.swift; sourceTree = "<group>"; };
 		BAA55CFA1F0926A3006C9DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA55DB61F0A85A6006C9DBA /* dicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BAA55CD81F0926A3006C9DBA /* AppDelegate.swift */,
 				BAA55CDA1F0926A3006C9DBA /* ViewController.swift */,
+				BAA55DB61F0A85A6006C9DBA /* dicViewController.swift */,
 				BAA55CDC1F0926A3006C9DBA /* Main.storyboard */,
 				BAA55CDF1F0926A3006C9DBA /* Assets.xcassets */,
 				BAA55CE11F0926A3006C9DBA /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				BAA55CDB1F0926A3006C9DBA /* ViewController.swift in Sources */,
 				BAA55CD91F0926A3006C9DBA /* AppDelegate.swift in Sources */,
+				BAA55DB71F0A85A6006C9DBA /* dicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				BAA55CFF1F0926A3006C9DBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA55D001F0926A3006C9DBA /* Build configuration list for PBXNativeTarget "caltulatorSofaScoreTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				BAA55D021F0926A3006C9DBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA55D031F0926A3006C9DBA /* Build configuration list for PBXNativeTarget "caltulatorSofaScoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				BAA55D051F0926A3006C9DBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
